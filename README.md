@@ -5,7 +5,7 @@ Repository of iPython notebooks which interface to Fluxtream.
 
 If you are new to iPython notebooks, [here](http://ipython.org/notebook.html) is the main IP[y] website. 
 
-You will need to install python and iPython notebook on your local system, run a local ipython kernel, and install a local copy of this notebook to be able to execute and modify the code below. 
+You will need to install python and iPython notebook on your local system, run a local ipython kernel, and import a local copy of one or more of these notebook to be able to execute and modify the code.
 
 Install instructions are [here](http://ipython.org/install.html). At least on osx systems, you can start the server by going to Terminal and calling 'ipython notebook'. This will start a local web server and open a an IP[y] page talking to it in a web browser. 
 
