@@ -7,7 +7,7 @@ If you are new to iPython notebooks, [here](http://ipython.org/notebook.html) is
 
 You will need to install python and iPython notebook on your local system, run a local ipython kernel, and import a local copy of one or more of these notebook to be able to execute and modify the code.
 
-Install instructions are [here](http://ipython.org/install.html). At least on osx systems, you can start the server by going to Terminal and calling 'ipython notebook'. This will start a local web server and open a an IP[y] page talking to it in a web browser. 
+Install instructions for iPython Notebook are [here](http://ipython.org/install.html). At least on osx systems, you can start the server by going to Terminal and calling 'ipython notebook'. This will start a local web server and open an [IP[y] page](http://127.0.0.1:8890/tree) talking to that local server.
 
 To view a static copy of the iPython notebooks in git, you can go to the iPython Notebook Viewer [here](http://nbviewer.ipython.org/) and paste in a link to .ipynb file github.
 
