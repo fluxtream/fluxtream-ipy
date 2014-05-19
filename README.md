@@ -8,13 +8,15 @@ The main website with info about iPython notebooks is [here](http://ipython.org/
 
 You will need to install python and iPython notebook on your local system, run a local ipython kernel, and make a local copy of a given notebook to be able to execute and modify the code.
 
-Install instructions for iPython Notebook are [here](http://ipython.org/install.html). At least on osx systems, after installation you can start the server by going to Terminal and calling 'ipython notebook'. This will start a local web server and open a root [IP[y] page](http://127.0.0.1:8890/tree) talking to that local server.
+Install instructions for iPython Notebook are [here](http://ipython.org/install.html). At least on osx systems, after installation you can start the server by going to Terminal and calling 'ipython notebook'. This will start a local web server talking to an iPython kernel and open a [root IP[y] page](http://127.0.0.1:8890/tree).  
 
-To view a properly formatted static copy of a given .ipynb file, you can go to the iPython Notebook Viewer [here](http://nbviewer.ipython.org/) and paste in its URL.
+The  directory where you start the iPython Notebook server will be treated as iPython's home directory.  New and imported notebooks will be put in that directory, so it's good to remember where you started the server from and be consistent about it.
 
-For example, for viewing the Netatmo/Fluxtream Gateway notebook (netatmo-fluxtream-gateway.ipynb), you can copy the URL for it in github (https://github.com/fluxtream/fluxtream-ipy/blob/master/netatmo-fluxtream-gateway.ipynb) into the box at the main page of the [iPython Notebook Viewer](http://nbviewer.ipython.org/).  You can also share the URL for this page with others so they can go there directly.  For example, the URL for viewing the Netatmo/Fluxtream Gateway notebook in this github repo is http://nbviewer.ipython.org/github/fluxtream/fluxtream-ipy/blob/master/netatmo-fluxtream-gateway.ipynb
+To view a properly formatted static copy of a given .ipynb file, you can go to the iPython Notebook Viewer [here](http://nbviewer.ipython.org/) and paste in a URL to the .ipynb file.
 
-The [iPython Notebook Viewer](http://nbviewer.ipython.org/) opens a static view of the .ipynb file and lets you download a copy to your local computer.  The download button in the static view is an arrow pointing down in the upper right corner.  
+For example, for viewing the Netatmo/Fluxtream Gateway notebook in this repo (netatmo-fluxtream-gateway.ipynb), you can copy the github URL for it (https://github.com/fluxtream/fluxtream-ipy/blob/master/netatmo-fluxtream-gateway.ipynb) into the box at the main page of the [iPython Notebook Viewer](http://nbviewer.ipython.org/).  You can also share the URL for this page with others so they can go there directly.  For example, the URL for viewing the Netatmo/Fluxtream Gateway notebook in this github repo is http://nbviewer.ipython.org/github/fluxtream/fluxtream-ipy/blob/master/netatmo-fluxtream-gateway.ipynb
+
+The [iPython Notebook Viewer](http://nbviewer.ipython.org/) opens a static view of an .ipynb file and lets you download a copy to your local computer.  The download button in the static view is an arrow pointing down in the upper right corner.  
 
 Another option for getting these .ipynb files to your local machine is to fork or clone this github project to a local directory.  This is the better option if you want to submit changes, but isn't necessary if you just want to use a given notebook as a starting point for personal customization.
 
