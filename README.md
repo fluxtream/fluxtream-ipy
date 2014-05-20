@@ -25,5 +25,5 @@ From the [root IP[y] page on your local server](http://127.0.0.1:8890/tree), you
 
 Once you have IP[y] generally working on your system, here's a brief intro in how to use it:
 * A green outline shows the currently selected cell.
-* Select a different cell by clicking on it.
+* Select a different cell by clicking on it, or by using escape to enter command mode (grey outline) and use the keyboard shortcuts listed under the Help menu.
 * Execute the currently selected cell by either clicking the play button on the icon bar at the top, selecting Cell/Run from the menu bar, or by using the keyboard shortcut Shift-Return.
