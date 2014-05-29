@@ -4,6 +4,7 @@ fluxtream-ipy
 This is a repository for iPython notebooks which interface to Fluxtream.  This currently includes:
  * [netatmo-fluxtream-gateway.ipynb](http://nbviewer.ipython.org/github/fluxtream/fluxtream-ipy/blob/master/netatmo-fluxtream-gateway.ipynb): A notebook that walks you through reading data from a Netatmo account, either via CSV files downloaded from the Netatmo web site or via use of the Netatmo API, and sending it to Fluxtream.
  * [iPhoto-fluxtream-upload.ipynb](http://nbviewer.ipython.org/github/fluxtream/fluxtream-ipy/blob/master/iPhoto-fluxtream-upload.ipynb): A notebook that walks you through uploading photos from your computer's filesystem to Fluxtream.
+ * [Nonin-SpO2-thresh](http://nbviewer.ipython.org/github/fluxtream/fluxtream-ipy/blob/master/Nonin-SpO2-thresh.ipynb): A notebook that walks you through reading data from an existing Fluxtream channel, modifying it, and re-uploading the result.  
 
 The main website with info about iPython notebooks is [here](http://ipython.org/notebook.html).
 
