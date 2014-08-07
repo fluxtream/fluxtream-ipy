@@ -49,3 +49,5 @@ After you've downloaded a batch and uploaded to fluxtream, you can optionally cl
 Simply evaluate
 
     nonin.clear_sessions()
+
+(Here's an [online view of the notebook](http://nbviewer.ipython.org/github/fluxtream/Nonin-WristOx2-3150/blob/master/Nonin-WristOx2-3150.ipynb), but you'll need to be running it locally to download data from the Nonin and upload to Fluxtream)
